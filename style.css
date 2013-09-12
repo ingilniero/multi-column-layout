@@ -5,6 +5,15 @@ html {
   color: black;
 }
 
+h1, h2, h3, h4 {
+  line-height: 1;
+}
+
+h2, h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
 h1 {
   font-size: 200%;
   text-transform: lowercase;
@@ -12,6 +21,8 @@ h1 {
 
 h1 {
   font-size: 130%;
+  padding: 0;
+  margin: 0.66em 1em 0.33em 1em;
 }
 
 h3 {
@@ -32,10 +43,20 @@ p#copyright {
   color: gray;
   margin-left: 3.75em;
   text-align: center;
+  margin-top: 4em;
+}
+
+div#entry {
+  margin: 0 25% 1em 7%;
+  padding: 0;
 }
 
 #archives {
   width: 20%;
+  position: absolute;
+  top: 4em;
+  right: 0;
+  font-size: 10pt;
 }
 
 #archives a {
