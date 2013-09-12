@@ -1,6 +1,8 @@
 html {
   font-size: 10pt;
   font-family: Verdana, Arial, Helvetica, sans-serif;
+  background: rgb(95%, 95%, 80%);
+  color: black;
 }
 
 h1 {
@@ -30,4 +32,26 @@ p#copyright {
   color: gray;
   margin-left: 3.75em;
   text-align: center;
+}
+
+#archives {
+  width: 20%;
+}
+
+#archives a {
+  border-left: 1px solid gray;
+  display: block;
+  padding: 0.1em 0.1em;
+  margin: 0;
+}
+
+#archives a:hover {
+  background: rgb(85%, 85%, 70%);
+}
+
+#archives h3 {
+  color: gray;
+  border-bottom: 1px solid gray;
+  margin: 0;
+  padding: 0;
 }
